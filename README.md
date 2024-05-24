@@ -75,7 +75,7 @@ Endpoint: http://localhost:6062/api/v1/guideline/{wasteCategoryId}
 - **Method**: POST
 - **Description**:Add a new disposal guideline.
 - **Response**:
-    - **Status Code**: 201 Created
+    - **Status Code**: 201 CREATED
 
       ![](documentation-pictures/addGuideline.png)
 
@@ -86,7 +86,7 @@ Endpoint: http://localhost:6062/api/v1/guideline/all
 - **Response**:
     - **Status Code**: 200 OK
 
-      ![](documentation-pictures/getAllGuidelines.png)
+      ![](./documentation-pictures/getAllGuidelines.png)
 
 #### Get Guideline by ID
 Endpoint: http://localhost:8080/api/v1/guideline/find/{id}
@@ -95,7 +95,7 @@ Endpoint: http://localhost:8080/api/v1/guideline/find/{id}
 - **Response**:
     - **Status Code**: 200 OK
 
-  ![](documentation-pictures/getByGuidelineId.png)
+  ![](./documentation-pictures/getByGuidelineId.png)
 
 #### Update Guideline
 Endpoint: http://localhost:6062/api/v1/guideline/update/{id}/{wasteCategoryId}
@@ -104,7 +104,7 @@ Endpoint: http://localhost:6062/api/v1/guideline/update/{id}/{wasteCategoryId}
 - **Response**:
     - **Status Code**: 200 OK
 
-      ![](documentation-pictures/updateGuideline.png)
+      ![](./documentation-pictures/updateGuideline.png)
 
 #### Delete Guideline
 Endpoint: http://localhost:6062/api/v1/guidelines/delete/{id}
@@ -113,7 +113,7 @@ Endpoint: http://localhost:6062/api/v1/guidelines/delete/{id}
 - **Response**:
     - **Status Code**: 204 No Content
 
-      ![](documentation-pictures/deleteGuideline.png)
+      ![](./documentation-pictures/deleteGuideline.png)
 
 
 
@@ -126,9 +126,9 @@ Endpoint: http://localhost:6062/api/v1/tips/{wasteCategoryId}
 - **Method**: POST
 - **Description**: Add a new recycling tip.
 - **Response**:
-    - **Status Code**: 204 Created
+    - **Status Code**: 201 CREATED
 
-      ![](documentation-pictures/addTip.png)
+      ![](./documentation-pictures/addTip.png)
 
 #### List All Tips
 Endpoint: http://localhost6062/api/v1/tips/all
@@ -146,7 +146,7 @@ Endpoint: http://localhost:6062/api/v1/tips/find/{id}
 - **Response**:
     - **Status Code**: 200 OK
 
-      ![](documentation-pictures/getByTipId.png)
+      ![](./documentation-pictures/getByTipId.png)
 
 
 #### Update Tip
@@ -156,7 +156,7 @@ Endpoint: http://localhost:6062/api/v1/tips/update/{id}/{wasteCategoryId}
 - **Response**:
     - **Status Code**: 200 OK
 
-      ![](documentation-pictures/updateTip.png)
+      ![](./documentation-pictures/updateTip.png)
 
 #### Delete Tip
 Endpoint: http://localhost:6062/api/v1/tips/delete/{id}
@@ -165,7 +165,7 @@ Endpoint: http://localhost:6062/api/v1/tips/delete/{id}
 - **Response**:
     - **Status Code**: 204 No Content
 
-      ![](documentation-pictures/deleteTip.png)
+      ![](./documentation-pictures/deleteTip.png)
 
 
 
